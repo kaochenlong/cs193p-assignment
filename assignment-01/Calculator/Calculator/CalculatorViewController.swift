@@ -8,6 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-}
+class CalculatorViewController: UIViewController {
+    @IBOutlet weak var displayLabel: UILabel!
 
+    @IBAction func appendDigit(sender: UIButton) {
+    }
+}
